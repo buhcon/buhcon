@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;0,900;1,300;1,400&family=Poppins:ital,wght@0,300;0,400;0,600;0,700;0,900;1,300;1,400;1,500&display=swap");
+
+html,
+body {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+p {
+  margin: 0;
+}
+
+.container {
+  max-width: 1280px;
+  width: 1280px;
+  margin: 0 auto;
+  @media (max-width: 1280px) {
+    width: 100%;
+  }
+}
+
+.redText {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 700;
+  color: #edafb8;
+  text-transform: uppercase;
+}
+
+.title {
+  font-size: 40px;
+  line-height: 50px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.text {
+  font-size: 16px;
+  line-height: 30px;
+  span {
+    font-weight: 700;
+    // color: #edafb8;
+    color: black;
+  }
+  ul {
+    list-style: none;
+    margin-left: 0;
+    padding-left: 0;
+  }
+}
+
+.mt20 {
+  margin-top: 20px;
+}
+.mt100 {
+  margin-top: 100px;
+}
+
+.mb20 {
+  margin-bottom: 20px;
+}
+.center {
+  text-align: center;
+}
+
+.ql-editor {
+  height: 300px !important;
+  box-shadow: inset 0px 2px 8px rgba(128, 128, 128, 0.145) !important;
+  border-radius: 0px 0px 5px 5px !important;
+}
+
+.swiper-slide {
+  width: 50%;
+  img {
+    width: 100%;
+  }
+}
